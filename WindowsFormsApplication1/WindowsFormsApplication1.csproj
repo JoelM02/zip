@@ -46,100 +46,102 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCharecterSelect.cs">
+    <Compile Include="Forms\frmCharecterSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCharecterSelect.Designer.cs">
+    <Compile Include="Forms\frmCharecterSelect.Designer.cs">
       <DependentUpon>frmCharecterSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCorrectAnswer.cs">
+    <Compile Include="Forms\frmCorrectAnswer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCorrectAnswer.Designer.cs">
+    <Compile Include="Forms\frmCorrectAnswer.Designer.cs">
       <DependentUpon>frmCorrectAnswer.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHelp.cs">
+    <Compile Include="Forms\frmHelp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHelp.Designer.cs">
+    <Compile Include="Forms\frmHelp.Designer.cs">
       <DependentUpon>frmHelp.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmIncorrectAnswer.cs">
+    <Compile Include="Forms\frmIncorrectAnswer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmIncorrectAnswer.Designer.cs">
+    <Compile Include="Forms\frmIncorrectAnswer.Designer.cs">
       <DependentUpon>frmIncorrectAnswer.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="Forms\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
+    <Compile Include="Forms\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuestion.cs">
+    <Compile Include="Forms\frmQuestion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmQuestion.Designer.cs">
+    <Compile Include="Forms\frmQuestion.Designer.cs">
       <DependentUpon>frmQuestion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegister.cs">
+    <Compile Include="Forms\frmRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegister.Designer.cs">
+    <Compile Include="Forms\frmRegister.Designer.cs">
       <DependentUpon>frmRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginUSer.cs" />
-    <Compile Include="MainMenu.cs">
+    <Compile Include="Forms\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainMenu.Designer.cs">
+    <Compile Include="Forms\MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tokenMultiplier.cs">
+    <Compile Include="Forms\tokenMultiplier.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="tokenMultiplier.Designer.cs">
+    <Compile Include="Forms\tokenMultiplier.Designer.cs">
       <DependentUpon>tokenMultiplier.cs</DependentUpon>
     </Compile>
-    <Compile Include="WelcomeMenu.cs">
+    <Compile Include="Forms\WelcomeMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WelcomeMenu.Designer.cs">
+    <Compile Include="Forms\WelcomeMenu.Designer.cs">
       <DependentUpon>WelcomeMenu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
+    <Compile Include="QuestionLoader.cs" />
+    <Compile Include="QuizQuestion.cs" />
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCharecterSelect.resx">
+    <EmbeddedResource Include="Forms\frmCharecterSelect.resx">
       <DependentUpon>frmCharecterSelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCorrectAnswer.resx">
+    <EmbeddedResource Include="Forms\frmCorrectAnswer.resx">
       <DependentUpon>frmCorrectAnswer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHelp.resx">
+    <EmbeddedResource Include="Forms\frmHelp.resx">
       <DependentUpon>frmHelp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmIncorrectAnswer.resx">
+    <EmbeddedResource Include="Forms\frmIncorrectAnswer.resx">
       <DependentUpon>frmIncorrectAnswer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="Forms\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuestion.resx">
+    <EmbeddedResource Include="Forms\frmQuestion.resx">
       <DependentUpon>frmQuestion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegister.resx">
+    <EmbeddedResource Include="Forms\frmRegister.resx">
       <DependentUpon>frmRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainMenu.resx">
+    <EmbeddedResource Include="Forms\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -152,10 +154,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="tokenMultiplier.resx">
+    <EmbeddedResource Include="Forms\tokenMultiplier.resx">
       <DependentUpon>tokenMultiplier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WelcomeMenu.resx">
+    <EmbeddedResource Include="Forms\WelcomeMenu.resx">
       <DependentUpon>WelcomeMenu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
